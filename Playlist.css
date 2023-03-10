@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #a04f62;
+    height: 10%;
+    padding: 10px;
+}
+
+h1{
+    color: #d2a391;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    background-color: #e6d7b8;
+}
+
+#nome_musica{
+    color: #570f23;
+}
+
+.container_estilizado{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: #a04f62;
+    padding: 20px;
+    margin: 33px;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #a04f62;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragrafo_footer{
+    color: #d2a391;
+}
